@@ -1,11 +1,11 @@
 import { useEffect } from "react"
 
-const map_endpoint = "https://maps.googleapis.com/maps/api/place/details/json?"
+
 const KEY = "AIzaSyCnsKWHQNPLThV4US96E56NO5Adx3fTSQo"
 
 function MakeRequest() {
     const corsCorrect = "https://cors-anywhere.herokuapp.com/"
-    const searchEndpoint = `https://maps.googleapis.com/maps/api/place/findplacefromtext/json?location=-33.8670522,151.1957362&radius=1500&type=restaurant&keyword=cruise&key=${KEY}&input="mosque"&inputtype="textquery"`
+    const searchEndpoint = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=-33.8670522,151.1957362&radius=1500&type=restaurant&keyword=cruise&key=${KEY}&input="mosque"&inputtype="textquery"`
 
     const testSearchEndpoint = corsCorrect + searchEndpoint
 
@@ -19,7 +19,7 @@ function MakeRequest() {
             .catch( err => {
                 console.log(err)
             })
-    , [])
+    )
 
     return (
         <>
