@@ -1,0 +1,18 @@
+const MosqueList = [
+    {
+        name : "Alausa Central Mosque",
+        center : {
+            lat : "6.6177947"   ,
+            lng : "3.3561382",
+        },
+        jumah : true
+    }
+]
+
+const MosqueNamesInLagos = ["Iwaya Central Mosque", "Arowolo Mosque", "Karamodeen Mosque", "Oluwa lose Mosque", "Mogbafoluwa Mosque", "Muinudeen Mosque", "Olohunkemi Mosque", "Ogo-oluwa Mosque", "Shuada Mosque", "Surulere Mosque", "Nurudeen Mosque", "Akorede Mosque", "", " ", "  NAMES", "Istijabat Mosque", "Ridwanlahi Mosque", "Ogo-Oluwa Central Mosque", "Abule-nlaOLoroMosque", "Ojoniyun  Central Mosque", "Anuoluwapo Mosque", "Adura-agba Mosque", "Barakatdeen Mosque", "Istijabat mosque", "Aduagba Mosque", "", " ", "  NAMES", "IjoraOLoye Central Mosque", "Ifelodun Mosque", "Durosoto Mosque", "Idera-Oluwa Mosque", "Izharul-Haq Mosque", "Ifedapo taxi park Mosque", "AlhajaSekoniMem. Mosque", "", " ", "  NAMES", "Lagos Mainland Central Mosque", "Musibaudeen Akinlogun Mosque", "Alhaja Awawu Anu-Oluwapo Mosque", "Shadattu Abadiyya Mosque", "Buraimo Abijo Mosque", "M.C.P.S Mosque", "Musibandeen Buhari Mosque", "Alasalatu Mosque", "Atere Mosque", "Jamatul Islamiyah Mosque", "Muritala Mohammed Mosque", "", "", "NAMES", "Wasimi Central Mosque", "Oluwatoyin Mosque", "Nurudeen Central Mosque", "Nawarudeen Central Mosque", "Ibikunle Ojikutu Mosque", "Idera Mosque", "Araromi Mosque", "Okobaba/Ayetoro Mosque", "Alh. Azeez Duroshola Mosque", "Ansar-Ud-deen Central Mosque", "Aduamigba Mosque", "HirbuRahman Central Mosque", "Makoko Central Mosque", "Olulu Mosque", "Opeloyeru Mosque", "Crusader Mosque", "Olaiya Mosque", "SalaudeenOlanrewaju Mosque", "Ago Egun Central Mosque", "Obalohu Mosque", "Surulere Mosque", "Sulaiman Mosque", "Ilogbo Shemore Mosque", "Ti oluwani mosque", "Imam Alh Kazumu Dokulana", "Barakatudeen Mosque", "Labinjo Mosque (Atitebi Mosque)", "Idera Mosque", "MorikazRasheed Mosque", "Ilaje Muslim Community Mosque", "Alh Okunu Mosque", "Aranse Oluwa Mosque", "Salami Bashorun Central Mosque", "Oluhunkemi Mosque", "Alubarika Mosque", "Iyonu Oluwa Mosque", "Ike Oluwa Central Mosque", "Akorede Mosque", "Ifelodun Mosque", "Oluhuntoyin Mosque", "Oluwakemi Mosque", "Hamdan Washukrah Mosque", "Gambia Mosque", "Aduramigba Central Mosque", "Oluwakemi Mosque", "Adeyemi Mosque", "Arikewuyo Mosque", "Anu Oluwapo Mosque", "AllauLateef Mosque", "Adekule Mosque", "Alafiatayo Mosque", "Ridhwanullah Mosque", "Kewulere Mosque", "Imam Shuaib Central Mosque", "Oluwatosin Mosque", "Mubarak Araokanmi Mosque", "Oluwakemi Mosque", "Iranlowo Oluwa Central Mosque", "AbdulWaheed Alulikimba Memorial Mosque", "Oluhutoyin Mosque", "Shamsideen Central Mosque", "Oluwakemi Mosque", "Oluwalowi Central Mosque", "Ike Oluwa Mosque", "Oladimeji Mosque", "Makana Aliya Mosque", "Beleke Smith Mosque", "Alh Ibrahim Mosque", "Alh Wahab Iyanda Folawiyo", "Araromi Mosque", "Iranlowo Oluwa Mosque", "Oluwaseyi Mosque", "Surulere L.G Mosque", "Ifelodun Mosque", "Oluwatoyin Mosque", "Idera Mosque", "Opeloyeru Mosque", "Abebe Mosque", "Kajola Mosque", "Alasela Mosque", "Aranse Oluwa Communoce", "Ifelodun Mosque", "Ike Oluwa Mosque", "Allahu Lateef", "Oluwa Losee", "Gbigba Adua Alimi", "Billal Masjid", "Kewulere Mosque", "Imam Shuaib Central Mosque", "Oluwatosin Mosque", "Mubarak Araokanmi Mosque", "TMC Dawah Centre Mosque", "An-Nur Central Mosque",]
+
+const MosqueByArea = {
+    
+}
+
+export default MosqueList

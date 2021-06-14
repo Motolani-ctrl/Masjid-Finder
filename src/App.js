@@ -1,9 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import SimpleMap from './Mapping/Maps'
+import MosqueList from './data/MosqueList'
+import MakeRequest from './data/fetchData'
 
 function App() {
   return (
     <div className="App">
+      <MakeRequest />
+      {/* <SimpleMap /> */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
