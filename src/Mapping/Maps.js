@@ -6,7 +6,7 @@ import GoogleMapReact from 'google-map-react';
  
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
-function ARC( text ){
+//function ARC( text ){
 
   return(
     <div>
